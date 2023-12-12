@@ -4,6 +4,13 @@ import wifi from '../assets/icons/wi-fi.png'
 import rocket from '../assets/icons/rocket.png'
 import insurance from '../assets/icons/shield.png'
 import assistant from '../assets/icons/assistant.png'
+import splashArt from '../assets/splashArt.jpg'
+import rocketIcon from '../assets/icons/rocket-icon.png'
+import joystick from '../assets/icons/joystick.png'
+import support from '../assets/icons/customer-support.png'
+import download from '../assets/icons/download.png'
+import upload from '../assets/icons/upload.png'
+import linkDedicado from '../assets/icons/server.png'
 
 document.querySelector('#app').innerHTML = `
   <header>
@@ -55,6 +62,35 @@ document.querySelector('#app').innerHTML = `
       <div class="section_icon">
         <img class="icon_section" src=${rocket} alt="icon assistant">
         <span class="span_description">100% da banda contratada, sem limitações.</span>
+      </div>
+    </section>
+
+    <section>
+      <img class="splashArt" src=${splashArt} alt="splash art">
+      <div>
+        <h2>Chegou a hora de descobrir um novo mundo!</h2>
+
+        <p>Acabou o tempo ruim. Agora você poderá ter acesso a uma internet de alta qualidade, perfeita para cessar seus melhores filmes, fazer downloads, jogar, ouvir músicas e tudo que você precisar!</p>
+
+        <div>
+          <div>
+            <img src=${rocketIcon} alt="rocket icon">
+            <span>Banda Larga Veloz</span>
+            <img src=${joystick} alt="joystick icon">
+            <span>Ping Para Gamers</span>
+            <img src=${support} alt="support icon">
+            <span>Atendimento Qualificado</span>
+          </div>
+          
+          <div>
+            <img src=${download} alt="download icon">
+            <span>100% de Download</span>
+            <img src=${upload} alt="upload icon">
+            <span>100% de Upload</span>
+            <img src=${linkDedicado} alt="link dedicado icon">
+            <span>Link Dedicado</span>
+          </div>                    
+        </div>
       </div>
     </section>
   </main>
