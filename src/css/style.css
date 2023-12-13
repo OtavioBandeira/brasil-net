@@ -128,3 +128,41 @@ header {
   font-size: 1rem;
   text-align: center;
 }
+
+.splashArt {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-left: 60px;
+}
+
+.section_splashArt {
+  display: flex;
+  padding: 30px 70px;
+  gap: 50px;  
+}
+
+.subtitle_splashArt {
+  margin-bottom: 10px;
+}
+
+.paragraph_splashArt {
+  margin-bottom: 10px;
+  width: 85%;
+}
+
+.section_col_icon {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.section_icon_left {
+  flex-direction: column;
+}
+
+.section_icon_right {
+  flex-direction: column;
+}

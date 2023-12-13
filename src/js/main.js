@@ -65,30 +65,46 @@ document.querySelector('#app').innerHTML = `
       </div>
     </section>
 
-    <section>
+    <section class="section_splashArt">
       <img class="splashArt" src=${splashArt} alt="splash art">
       <div>
-        <h2>Chegou a hora de descobrir um novo mundo!</h2>
+        <h2 class="subtitle_splashArt">Chegou a hora de descobrir um novo mundo!</h2>
 
-        <p>Acabou o tempo ruim. Agora você poderá ter acesso a uma internet de alta qualidade, perfeita para cessar seus melhores filmes, fazer downloads, jogar, ouvir músicas e tudo que você precisar!</p>
+        <p class="paragraph_splashArt">Acabou o tempo ruim. Agora você poderá ter acesso a uma internet de alta qualidade, perfeita para cessar seus melhores filmes, fazer downloads, jogar, ouvir músicas e tudo que você precisar!</p>
 
-        <div>
-          <div>
-            <img src=${rocketIcon} alt="rocket icon">
-            <span>Banda Larga Veloz</span>
-            <img src=${joystick} alt="joystick icon">
-            <span>Ping Para Gamers</span>
-            <img src=${support} alt="support icon">
-            <span>Atendimento Qualificado</span>
+        <div class="section_col_icon">
+          <div class="section_icon_left">
+            <div>
+              <img src=${rocketIcon} alt="rocket icon">
+              <span>Banda Larga Veloz</span>
+            </div>
+            
+            <div>
+              <img src=${joystick} alt="joystick icon">
+              <span>Ping Para Gamers</span>
+            </div>
+            
+            <div>
+              <img src=${support} alt="support icon">
+              <span>Atendimento Qualificado</span>
+            </div>
           </div>
           
-          <div>
-            <img src=${download} alt="download icon">
-            <span>100% de Download</span>
-            <img src=${upload} alt="upload icon">
-            <span>100% de Upload</span>
-            <img src=${linkDedicado} alt="link dedicado icon">
-            <span>Link Dedicado</span>
+          <div class="section_icon_right">
+            <div>
+              <img src=${download} alt="download icon">
+              <span>100% de Download</span>
+            </div>
+            
+            <div>
+              <img src=${upload} alt="upload icon">
+              <span>100% de Upload</span>
+            </div>
+            
+            <div>
+              <img src=${linkDedicado} alt="link dedicado icon">
+              <span>Link Dedicado</span>
+            </div>
           </div>                    
         </div>
       </div>
